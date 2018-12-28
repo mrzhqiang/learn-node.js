@@ -21,9 +21,6 @@ git checkout -t origin/gh-pages
 # Delete everything that isn't versioned (1.x, 2.x)
 ls | grep -E -v '^\d+\.x$' | xargs rm -rf
 
-# Build latest website with mkdocs
-../mkdocs build
-
 # Copy website files from real repo
 cp -R ../dist/* .
 
