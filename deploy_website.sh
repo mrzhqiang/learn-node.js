@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Note: must be use git bash running here
 set -ex
 
 REPO="git@github.com:mrzhqiang/learn-node.js.git"
