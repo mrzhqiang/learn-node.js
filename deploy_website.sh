@@ -22,7 +22,7 @@ git checkout -t origin/gh-pages
 ls | grep -E -v '^\d+\.x$' | xargs rm -rf
 
 # Copy website files from real repo
-cp -R ../dist/* .
+cp -R ../site/* .
 
 # Stage all files in git and create a commit
 git add .
